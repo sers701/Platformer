@@ -10,6 +10,7 @@ public class Ghost : MonoBehaviour
 
     private float _previousHorizontalPosition;
     private SpriteRenderer _spriteRenderer;
+
     private void Start()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();

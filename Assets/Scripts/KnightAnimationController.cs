@@ -6,6 +6,7 @@ public class KnightAnimationController : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
     [SerializeField] private SpriteRenderer _spriteRenderer;
+
     public void SwitchCharacterMoving(float horizontalDirection)
     {
         if (horizontalDirection > 0)

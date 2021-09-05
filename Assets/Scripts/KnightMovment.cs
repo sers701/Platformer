@@ -15,6 +15,7 @@ public class KnightMovment : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private GroundChecker _groundChecker;
     private KnightAnimationController _knightAnimationController;
+
     private void Awake()
     {
         _jumpVelocity = Mathf.Sqrt(2 * _jumpHeight * Physics.gravity.magnitude) * Vector2.up;
