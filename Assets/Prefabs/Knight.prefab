@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 4839980908562250929}
   - component: {fileID: 4839980908562250928}
   - component: {fileID: 4839980908562250930}
+  - component: {fileID: 766706023}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -283,3 +284,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _walkSpeed: 8
   _jumpHeight: 5
+--- !u!114 &766706023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4839980908562250920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f98a4b8d08f8df4a96682df75d5526f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _knightAnimationController: {fileID: 4839980908562250928}

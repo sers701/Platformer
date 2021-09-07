@@ -10,15 +10,7 @@ public class GroundChecker : MonoBehaviour
 
     public bool IsGrounded()
     {
-        if (RaycastFromCollider(-_objectCollider.bounds.extents.x) || RaycastFromCollider(_objectCollider.bounds.extents.x))
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-        
+            return RaycastFromCollider(-_objectCollider.bounds.extents.x) || RaycastFromCollider(_objectCollider.bounds.extents.x);      
     }
 
     private RaycastHit2D RaycastFromCollider(float horizontalOffset)
